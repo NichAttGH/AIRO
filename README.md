@@ -1,6 +1,40 @@
 # Artificial Intelligence for Robotics Assignments
 ## First Assignment
 
+*Reference professor*: Mauro Vallati
+
+*Language*: PDDL+
+*Planning engine*: [ENHSP](https://sites.google.com/view/enhsp/) (version 20)
+
+### Collaborators
+
+| Name                  | ID       |
+| --------------------- |:--------:|
+| Nicholas Attolino     | S5656048 |
+| Claudio Tomaiuolo     | S5630055 |
+| Teodoro Lima          | S5452613 |
+| Baris Aker            | S5430437 |
+
+### Execution
+
+*Remember to install ENHSP20 before running!*
+
+To execute planning run the script:
+```bash
+java -jar ENHSP/enhsp.jar -o <domain> -f <problem> -planner <configuration>
+
+# " opt-blind " configuration for the first 3 problems and " sat-hmrph " for the last problem
+```
+
+### Dependencies
+
+The only dependency needed is Java (15 possibly, otherwise also 17 and 18 should work):
+```bash
+sudo apt install openjdk-17-jdk
+```
+
+*Note*: if you choose to install Java 15, you'll have to install it manually.
+
 ## Second Assignment
 
 *Reference professor*: Fulvio Mastrogiovanni
