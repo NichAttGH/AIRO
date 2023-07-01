@@ -1,5 +1,7 @@
 # Artificial Intelligence for Robotics Assignments
-First and Second Assignments for AIRO
+## First Assignment
+
+## Second Assignment
 
 *Reference professor*: Fulvio Mastrogiovanni
 
